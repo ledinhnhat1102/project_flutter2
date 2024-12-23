@@ -1,0 +1,26 @@
+name: project_flutter2
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0" # Đảm bảo tương thích với Flutter phiên bản mới nhất.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Các thư viện cần thiết
+  path_provider: ^2.0.15   # Hỗ trợ đọc và ghi file trên thiết bị
+  sqflite: ^2.2.9         # Hỗ trợ SQLite database
+  intl: ^0.18.1           # Hỗ trợ định dạng ngày tháng và quốc tế hóa
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
